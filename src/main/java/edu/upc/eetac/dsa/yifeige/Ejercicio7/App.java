@@ -32,8 +32,8 @@ public class App
     		e.printStackTrace();
     	}
     	System.out.printf("El nombre es %s\n",vacio.nombre); // muestra datos por la pantalla.
-        System.out.printf("La edad es %d\n" + vacio.edad);
-        System.out.printf("El sexo es %c\n" + vacio.sexo);
+        System.out.printf("La edad es %d\n" , vacio.edad);
+        System.out.printf("El sexo es %c\n" , vacio.sexo);
     	
     }
 }
